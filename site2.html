@@ -9,12 +9,18 @@
      
  </head>
  <body>
+        <div class="container">
+         <h5>search</h5>
+        </div>
+
+         <!--headersection starts-->
      <header class="header">
          
          <div id="menubar" class="fa-solid fa-bars"></div>
 
          <a href="#" class="logo">CarSell<span>24X7</span></a>
-
+           <!--navbar section-->
+           
           <nav class="navbar">
              <a href="#home">Home</a>
              <a href="#vehicales">vehicales</a>
@@ -23,7 +29,7 @@
              <a href="#reviews">reviews</a>
              <a href="#contact">contact</a>
            </nav>
-            
+            <!--login button-->
             <div id="login-btn">
                 <button type="but" class="btn">Login</button>
                 <i class="fa-solid fa-user"></i>
@@ -32,10 +38,12 @@
 
 
 
-     </header>
-     
+              </header>
+            <!--header section end -->
 
-      <div class="login-form-container">
+            <!--login from-->
+
+          <div class="login-form-container">
          <span class="fa-solid fa-xmark" id="close-login-btn"></span>
 
         <form action="">
@@ -52,15 +60,18 @@
           <p> don;t have an account <a href="#">create one</a></p>
         </form>
       </div>
-
-
+ 
+       <!--home section starts-->
        <section class="home" id="home">
         <h1 class="home-parallax" data-speed="-2">Find your car</h1>
         <img src="./pngwing.com (1).png"  alt="" class="home-parallax" data-speed="5">
         <a class="btn home-parallax" data-speed="7" href="#">Explore cars</a>
         
        </section>
+      <!--home section end-->
 
+      <!--icon section starts -->
+        
       <section>
         <div class="icon-container">
             <div class="icons"></div>
@@ -96,17 +107,21 @@
        </div>
      </div>
       </section>
-    
-
+     <!--icon section end-->
+      
+      <!--vehicales section starts-->
      <section class="vehical" id="vehicales">
-        <h1 class="heading">popular <span>vehicals</span></h1>
+        <h1 class="heading"> popular <span>vehicals</span></h1>
+        
         <div class="slider">
             <div class="wrapper">
-                <i class="fa-solid fa-angle-left"></i>
-                <div class="wrapper=box">
+                
+               <i class="fa-solid fa-angle-left preNext" id="preBtn"></i>
+                
+                 <div class="wrapper-box">
 
-                    <div class="box-active">
-                     <img src="./pngimg.com - opel_PNG36.png">
+                    <div class="box">
+                     <img class="img" src="./pngimg.com - opel_PNG36.png" alt="">
                       <div class="content">
                         <h3>new model</h3>
                         <div class="price">price:<span>euro.35.000$</span></div>
@@ -117,23 +132,191 @@
                            <i class="fa-solid fa-circle"></i>gasoline
                            <i class="fa-solid fa-circle"></i>183mph
                         </p>
+                           
+                          <a href="#" class="btn">check out</a>
                       </div>
                     </div>
-                </div>
-                
+                      
+                    <div class="box-">
+                     <img src="./pngimg.com - opel_PNG49.png" alt="">
+                      <div class="content">
+                        <h3>new model</h3>
+                        <div class="price">price:<span>euro.25.000$</span></div>
+                        <p>
+                           new
+                           <i class="fa-solid fa-circle"></i>2023
+                           <i class="fa-solid fa-circle"></i>automatic
+                           <i class="fa-solid fa-circle"></i>gasoline
+                           <i class="fa-solid fa-circle"></i>183mph
+                        </p>
+                           
+                          <a href="#" class="btn">check out</a>
+                      </div>
+                    </div>
+                     
+                    <div class="box">
+                     <img src="./pngimg.com - opel_PNG46.png" alt="">
+                      <div class="content">
+                        <h3>new model</h3>
+                        <div class="price">price:<span>euro.45.000$</span></div>
+                        <p>
+                           new
+                           <i class="fa-solid fa-circle"></i>2023
+                           <i class="fa-solid fa-circle"></i>automatic
+                           <i class="fa-solid fa-circle"></i>gasoline
+                           <i class="fa-solid fa-circle"></i>183mph
+                        </p>
+                           
+                          <a href="#" class="btn">check out</a>
+                      </div>
+                    </div>
 
+                    
+
+
+                    </div>
                 
-                <i class="fa-sharp fa-solid fa-angle-right"></i>
+                
+                    <i class="fa-solid fa-angle-right preNext" id="nextBtn"></i>
+
+             </div>
+            <div class="activeCircle">
+               <div class="fa-regular fa solid fa-circle"></div>
+               <div class="fa-regular fa-circle"></div>
+               <div class="fa-regular fa-circle"></div>
+               <div class="fa-regular fa-circle"></div>
+               <div class="fa-regular fa-circle"></div>
+               <div class="fa-regular fa-circle"></div>              
+               </div>
+
+
+               </div>
+               </section>
+          
+            <!--vehicales section end-->
+            
+            <!--services section start-->
+            <section class=" services" id="services">
+               <h1 class="headin"> our <span> services </span></h1>
+               <div class="box-container">
+                 
+                  <div class="box">
+                     <i class="fa-solid fa-car"></i>
+                     <h3>car selling</h3>
+                     <P>lorem ipsum dolor sit amet consectetur adipisicing elit.Dicta,cumquel</P>
+                     <a href="#" class="btn">read more</a>
+                   </div>
+                    
+                   <div class="box">
+                     <i class="fa-solid fa-screwdriver-wrench"></i>
+                     <h3>parts repair</h3>
+                     <P>lorem ipsum dolor sit amet consectetur adipisicing elit.Dicta,cumquel</P>
+                     <a href="#" class="btn">read more</a>
+                   </div>
+
+                   <div class="box">
+                     <i class="fa-solid fa-car-burst"></i>
+                     <h3>car insurance</h3>
+                     <P>lorem ipsum dolor sit amet consectetur adipisicing elit.Dicta,cumquel</P>
+                     <a href="#" class="btn">read more</a>
+                   </div>
+                   
+                   <div class="box">
+                     <i class="fa-sharp fa-solid fa-car-battery"></i>
+                     <h3>battery replacement</h3>
+                     <P>lorem ipsum dolor sit amet consectetur adipisicing elit.Dicta,cumquel</P>
+                     <a href="#" class="btn">read more</a>
+                   </div>
+                   
+                   <div class="box">
+                     <i class="fa-solid fa-gas-pump"></i>
+                     <h3>oil change</h3>
+                     <P>lorem ipsum dolor sit amet consectetur adipisicing elit.Dicta,cumquel</P>
+                     <a href="#" class="btn">read more</a>
+                   </div>
+
+
+                   <div class="box">
+                     <i class="fa-sharp fa-solid fa-headset"></i>
+                     <h3>24/7 support</h3>
+                     <P>lorem ipsum dolor sit amet consectetur adipisicing elit.Dicta,cumquel</P>
+                     <a href="#" class="btn">read more</a>
+                   </div>
+
+
+
+                  </div>
+                  </section>
+               <!--services section end-->
+               <!--featured section starts-->
+
+              <section class="featured" id="featured"> 
+               <h1 class="heading"> <span>featured</span> cars</h1>
+                
+                <div class="feuature-slider">
+
+               <div class="featured-wrapper">
+                  <i class="fa-solid fa-angle-left fPreNext" id="fPreBtn"></i>
+                   
+                   <div class="featured-wrapper2">
+                     <div class="featured-wrapper-box">
+                        <div class="box active">
+                          <img src="./pngimg.com - toyota_PNG1913.png" alt="">
+                           <h3>new model</h3>
+                           <div class="starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star-half"></i>
+                           </div>
+                           <div class="price">Toyota.32.000$</div>
+                           <a href="#" class="btn">check out</a>
+                        </div>
+                        <div class="box ">
+                           <img src="./pngimg.com - toyota_PNG1928.png" alt="">
+                            <h3>new model</h3>
+                            <div class="starts">
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star-half"></i>
+                            </div>
+                            <div class="price">Toyota.32.000$</div>
+                            <a href="#" class="btn">check out</a>
+                         </div>
+
+                     </div>
+                   </div>
+
+
+                  <i class="fa-solid fa-angle-right fPreNext" id="fNextBtn"></i>
+
+               </div>
+                 <div class="fActCircle">
+                  <div class="fa-regular fa solid fa-circle"></div>
+               <div class="fa-regular fa-circle"></div>
+               <div class="fa-regular fa-circle"></div>
+               <div class="fa-regular fa-circle"></div>
+               <div class="fa-regular fa-circle"></div>
+               <div class="fa-regular fa-circle"></div>
+
+                 </div>
             </div>
-
-
-        </div>
-     </section>
-    
+              </section>
 
 
 
+               <!--featured section end-->
+            
+
+
+
+             <!--font awesome link-->
      <script src="https://kit.fontawesome.com/049386d992.js" crossorigin="anonymous"></script>
+
+       <!--import javascript file -->
        <script src="site2.js"></script>
 
 
